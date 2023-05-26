@@ -1,3 +1,5 @@
+![Assessor Image](assessor.jpg)
+
 # assessor
 The Assessor serves as a tool within this framework, responsible for collecting relevant data and generating assessment reports. By utilizing the Compute Engine API, the Assessor retrieves critical information regarding VPCs, subnetworks, and routes from the customer's GCP environment.
 
