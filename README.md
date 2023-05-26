@@ -7,13 +7,14 @@ This script is written in Python and uses the Google Cloud SDK library to intera
 
 The script supports the following command line arguments:
 
-    --project: Required argument. Specifies the project IDs for which you want to retrieve network information. Multiple project IDs can be provided by separating them with commas.
-    --region: Required argument. Specifies the regions for which you want to retrieve network information. Multiple regions can be provided by separating them with commas.
-    --verbose: Optional argument. When provided, it enables verbose mode and prints the network information to the screen in addition to writing it to JSON files.
+- --project: Required argument. Specifies the project IDs for which you want to retrieve network information. Multiple project IDs can be provided by separating them with commas.
+- --region: Required argument. Specifies the regions for which you want to retrieve network information. Multiple regions can be provided by separating them with commas.
+- --verbose: Optional argument. When provided, it enables verbose mode and prints the network information to the screen in addition to writing it to JSON files.
 
 Here's an example command to run the script:
-
+<pre>
 python assessor-cli.py --project project1,project2 --region us-central1,us-east1 --verbose
+</pre>
 
 In the above example, the script will retrieve network information for project1 and project2 in the regions us-central1 and us-east1. The verbose mode is enabled, so the information will be printed to the screen as well as written to JSON files.
 
